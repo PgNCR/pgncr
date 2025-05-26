@@ -28,7 +28,7 @@ const Navbar = () => (
     <Toolbar>
       <Typography variant="h6" sx={{ flexGrow: 1 }}>
         <a href="/">
-          <img src={pgncr} width="20%" sx={{ p: 2 }} />
+          <img src={pgncr} width="20%" sx={{ p: 2 }} alt="Postgres NCR" />
         </a>
       </Typography>
       <Tabs value={false} textColor="primary" indicatorColor="primary">
@@ -49,7 +49,7 @@ const Header = () => (
       width: "100%",
     }}
   >
-    <img src={pghead} />
+    <img src={pghead} alt="head of pgncr" />
   </Box>
 );
 
